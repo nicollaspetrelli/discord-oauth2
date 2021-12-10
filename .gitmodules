@@ -1,0 +1,3 @@
+[submodule "php8"]
+	path = php8
+	url = git@github.com:nicollasfeitosa/php8.git
