@@ -83,7 +83,7 @@
 
                             <a class="
                                 bg-discord text-gray-50 font-bold py-3 px-5 rounded-lg focus:outline-none focus:shadow-outline"
-                                type="submit">
+                                type="submit" href="{{ route('login.discord') }}">
                                 <div class="flex">
                                     <div class="w-1/5">
                                         <svg width="41" height="25" viewBox="0 0 71 55" fill="none"
@@ -108,6 +108,7 @@
 
                         </form>
                     </div>
+                    
                 </div>
             </div>
         </div>

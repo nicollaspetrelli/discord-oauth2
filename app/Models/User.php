@@ -21,6 +21,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'discord_id',
+        'discord_nickname',
+        'discord_avatar',
+        'discord_token',
+        'discord_refresh_token',
     ];
 
     /**
@@ -31,6 +36,8 @@ class User extends Authenticatable
     protected $hidden = [
         'password',
         'remember_token',
+        'discord_token',
+        'discord_refresh_token',
     ];
 
     /**
